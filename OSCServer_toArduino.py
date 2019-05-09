@@ -11,22 +11,26 @@ def selectProgram_handler(unused_addr, args):
     x = args[0]
     y = args[1]
     value = args[2]
+    print("Received selectProgram-message:", args[0], args[1], args[2], sep=' ')
     s.write("p"+ x + y + value )
     
 def speedFader_handler(unused_addr, args):  
     value = args[0]
+    print("Received selectProgram-message:", args[0] sep=' ')
     s.write("f" + value )                            
 
 def selectBulbs_handler(unused_addr, args):
     x = args[0]
     y = args[1]
     value = args[2]
+    print("Received selectProgram-message:", args[0], args[1], args[2], sep=' ')
     s.write("b"+ x + y + value )
 
 def switchManually_handler(unused_addr, args):
     x = args[0]
     y = args[1]
     value = args[2]
+    print("Received selectProgram-message:", args[0], args[1], args[2], sep=' ')
     s.write("m"+ x + y + value )
 
 
