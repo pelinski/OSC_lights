@@ -13,3 +13,9 @@ using python-osc lib
 
 --port 'port'
 ```
+
+# Useful for deployment 
+
+Host Network on RaspberryPI 
+> https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
+
