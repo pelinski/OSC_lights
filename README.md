@@ -7,12 +7,9 @@ using python-osc lib
 
 # args on startup 
 
-Set server IP 
-'''
---ip
-'''
 
-Set port 
-'''
---port 
-'''
+```
+--ip 'ip'
+
+--port 'port'
+```
