@@ -1,2 +1,2 @@
 # OSC_lights
-python
+raspberry pi network to OSC controll arduino light system
